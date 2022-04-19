@@ -17,12 +17,12 @@ item_5 = item_3
 var item_6
 var item_6_type 
 item_6 = 15
-item_6_type = Number(item_6)
-console.log("item_6 == " + typeof (item_6) + " item_6_type == " + typeof (item_6_type))
+item_6_type = typeof item_6
+console.log("item_6 == " + typeof (item_6) + " item_6_type == " + item_6_type)
 let item_7 = "asdf"; item_6 = String(item_7) 
 var item_7_type
-item_7_type = String(item_7)
-console.log("item_7 == " + typeof (item_7) + " item_7_type == " + typeof (item_7_type))
+item_7_type = typeof item_7
+console.log("item_7 == " + typeof (item_7) + " item_7_type == " + item_7_type)
 let age_1 = 10
 let age_2 = 18
 let age_3 = 60
